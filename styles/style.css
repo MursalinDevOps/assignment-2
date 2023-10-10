@@ -1,27 +1,32 @@
 /* Nav styles  */
 
-.nav{
+.nav {
     padding: 70px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-header{
+
+header {
     background-color: beige;
     padding-bottom: 70px;
 }
-.nav .name{
+
+.nav .name {
     font-size: 50px;
 }
-.nav ul{
+
+.nav ul {
     display: flex;
     gap: 20px;
 }
-.nav li{
+
+.nav li {
     list-style: none;
 }
-.nav a{
-    text-decoration:none;
+
+.nav a {
+    text-decoration: none;
     color: black;
     font-size: 1.5em;
 }
@@ -29,17 +34,20 @@ header{
 
 /* Home styles  */
 
-.home{
+.home {
     text-align: center;
 }
-.title{
-    font-size:60px;
+
+.title {
+    font-size: 60px;
 }
-.description{
+
+.description {
     font-size: 20px;
     color: dimgrey;
 }
-.button-1{
+
+.button-1 {
     border-radius: 8px;
     color: #FFF;
     font-size: 1.25rem;
@@ -49,37 +57,103 @@ header{
     cursor: pointer;
     border: 0;
 }
-.banner-image{
+
+.banner-image {
     margin: 50px auto;
 }
 
 /* section-2 styles  */
 
-.section-2{
+.section-2 {
     padding-top: 100px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.team-images{
+.team-images {
     display: grid;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
-.team-info .span-1{
+
+.team-info .span-1 {
     color: #FF900E;
 }
-.team-info .span-2{
+
+.team-info .span-2 {
     color: slategrey;
 }
-.team-info .span-3{
+
+.team-info .span-3 {
     color: #FF900E;
 }
-.team-title{
- font-size: 50px;
+
+.team-title {
+    font-size: 50px;
 }
-.team-description{
- font-size: 1.5em;
+
+.team-description {
+    font-size: 1.5em;
+}
+
+/* section 3 styles  */
+.div{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px ;
+    align-items:flex-start ;
+}
+.section-3 h1{
+    font-size: 20px;
+}
+.section-3-title {
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 5px solid #FF900E;
+}
+
+.section-3-description {
+    font-size: 20px;
+}
+
+.sub-title-container {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+
+}
+
+.sub-title-1 {
+    font-size: 20px;
+    background-color: beige;
+    padding: 20px;
+}
+
+.sub-title-2 {
+    font-size: 20px;
+    background-color: beige;
+    padding: 20px;
+}
+
+.sub-title-3{
+    font-size: 20px;
+    background-color: beige;
+    padding: 20px;
+}
+
+.sub-title-4 {
+    font-size: 20px;
+    background-color: beige;
+    padding: 20px;
+}
+
+.sub-title-description {
+    font-size: 18px;
+}
+.section-3-image{
+    height: 708px;
+    width: 982px;
 }
