@@ -157,3 +157,51 @@ header {
     height: 708px;
     width: 982px;
 }
+
+/* section 4 styles  */
+
+.section-4{
+    padding: 100px;
+}
+.section-4 h1{
+    font-size: 45px;
+}
+.section-4 p{
+    font-size: 16px;
+}
+.icons{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon{
+    border: 1px solid #FF900E;
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    padding: 30px;
+}
+.icon h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.icon p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* section 5 styles  */
+.section-5 h1{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+.sponsors{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top:50px ;
+    padding-bottom: 100px;
+}
